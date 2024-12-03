@@ -33,6 +33,10 @@
     - Address
     - Contact
 
+# 2 Types of Routing in Web Apps
+- Client Side Routing
+- Server Side Routing
+
 
 
 
