@@ -38,7 +38,7 @@
 - Server Side Routing
 
 
-# Lazy Loading 
+# Lazy Loading / On demand loading / Dynamic laoding / Dynamic Bundling / Chunking
 - used to distribute the code in to smaller chunks
 
 
