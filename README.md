@@ -38,6 +38,10 @@
 - Server Side Routing
 
 
+# Lazy Loading 
+- used to distribute the code in to smaller chunks
+
+
 
 
 

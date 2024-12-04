@@ -6,6 +6,10 @@ body {
     padding: 0px;
     font-family: "Parkinsans", sans-serif;
 }
+a {
+    text-decoration: none;
+    color: #222121;
+}
 .header
 {
     display: flex;
