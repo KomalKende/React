@@ -1,7 +1,10 @@
+import { useContext } from 'react';
 import {CDN_URL} from '../utils/constants';
+import UserContext from '../utils/UserContext';
 
 const RestaurantCard = (props) => {
     const { resData } = props;
+    const {LoggedInUser} = useContext(UserContext)
     const {cloudinaryImageId, name, cuisines, avgRating, costForTwo, sla} = resData?.info;
     return (
       <div>
@@ -21,10 +24,14 @@ const RestaurantCard = (props) => {
             <div>
               <p className='text-sm py-2'>{sla?.slaString} </p>
             </div>
+            <div>
+              <h5>User - {LoggedInUser}</h5>
+            </div>
           </div>
         </div>
       </div>
     );
   };
 
+  
   export default RestaurantCard;
