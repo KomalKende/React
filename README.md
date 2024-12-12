@@ -41,6 +41,15 @@
 # Lazy Loading / On demand loading / Dynamic laoding / Dynamic Bundling / Chunking
 - used to distribute the code in to smaller chunks
 
+# Redux Toolkit
+- Install @reduxjs/toolkit and react-redux
+- Build our store
+- connect our store to our App
+- Slice - create cart slice to add item to the cart
+- dispatch(action)
+- selectors
+
+
 
 
 
